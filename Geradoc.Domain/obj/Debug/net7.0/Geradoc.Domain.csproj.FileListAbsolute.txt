@@ -1,0 +1,15 @@
+D:\CSharp\Geradoc\Geradoc.Domain\bin\Debug\net7.0\Geradoc.Domain.deps.json
+D:\CSharp\Geradoc\Geradoc.Domain\bin\Debug\net7.0\Geradoc.Domain.dll
+D:\CSharp\Geradoc\Geradoc.Domain\bin\Debug\net7.0\Geradoc.Domain.pdb
+D:\CSharp\Geradoc\Geradoc.Domain\bin\Debug\net7.0\Geradoc.Shared.dll
+D:\CSharp\Geradoc\Geradoc.Domain\bin\Debug\net7.0\Geradoc.Shared.pdb
+D:\CSharp\Geradoc\Geradoc.Domain\obj\Debug\net7.0\Geradoc.Domain.csproj.AssemblyReference.cache
+D:\CSharp\Geradoc\Geradoc.Domain\obj\Debug\net7.0\Geradoc.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\CSharp\Geradoc\Geradoc.Domain\obj\Debug\net7.0\Geradoc.Domain.AssemblyInfoInputs.cache
+D:\CSharp\Geradoc\Geradoc.Domain\obj\Debug\net7.0\Geradoc.Domain.AssemblyInfo.cs
+D:\CSharp\Geradoc\Geradoc.Domain\obj\Debug\net7.0\Geradoc.Domain.csproj.CoreCompileInputs.cache
+D:\CSharp\Geradoc\Geradoc.Domain\obj\Debug\net7.0\Geradoc.Domain.csproj.CopyComplete
+D:\CSharp\Geradoc\Geradoc.Domain\obj\Debug\net7.0\Geradoc.Domain.dll
+D:\CSharp\Geradoc\Geradoc.Domain\obj\Debug\net7.0\refint\Geradoc.Domain.dll
+D:\CSharp\Geradoc\Geradoc.Domain\obj\Debug\net7.0\Geradoc.Domain.pdb
+D:\CSharp\Geradoc\Geradoc.Domain\obj\Debug\net7.0\ref\Geradoc.Domain.dll
