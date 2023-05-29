@@ -12,7 +12,6 @@ namespace Geradoc.Domain.Objetos {
         public CpfCnpj(string numero) {
             Numero = numero;
 
-
             AddNotifications(new ValidationContract()
                 .IsTrue(Validacao(numero), "CpfCnpj", "CPF/CNPJ inválido"));
         }
