@@ -4,6 +4,71 @@
     "D:\\CSharp\\Geradoc\\Geradoc.Infra\\Geradoc.Infra.csproj": {}
   },
   "projects": {
+    "D:\\CSharp\\Geradoc\\Geradoc.Domain\\Geradoc.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CSharp\\Geradoc\\Geradoc.Domain\\Geradoc.Domain.csproj",
+        "projectName": "Geradoc.Domain",
+        "projectPath": "D:\\CSharp\\Geradoc\\Geradoc.Domain\\Geradoc.Domain.csproj",
+        "packagesPath": "C:\\Users\\Matheus\\.nuget\\packages\\",
+        "outputPath": "D:\\CSharp\\Geradoc\\Geradoc.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Matheus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\CSharp\\Geradoc\\Geradoc.Shared\\Geradoc.Shared.csproj": {
+                "projectPath": "D:\\CSharp\\Geradoc\\Geradoc.Shared\\Geradoc.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "FluentValidator": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\CSharp\\Geradoc\\Geradoc.Infra\\Geradoc.Infra.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -12,6 +77,78 @@
         "projectPath": "D:\\CSharp\\Geradoc\\Geradoc.Infra\\Geradoc.Infra.csproj",
         "packagesPath": "C:\\Users\\Matheus\\.nuget\\packages\\",
         "outputPath": "D:\\CSharp\\Geradoc\\Geradoc.Infra\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Matheus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\CSharp\\Geradoc\\Geradoc.Domain\\Geradoc.Domain.csproj": {
+                "projectPath": "D:\\CSharp\\Geradoc\\Geradoc.Domain\\Geradoc.Domain.csproj"
+              },
+              "D:\\CSharp\\Geradoc\\Geradoc.Shared\\Geradoc.Shared.csproj": {
+                "projectPath": "D:\\CSharp\\Geradoc\\Geradoc.Shared\\Geradoc.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\CSharp\\Geradoc\\Geradoc.Shared\\Geradoc.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CSharp\\Geradoc\\Geradoc.Shared\\Geradoc.Shared.csproj",
+        "projectName": "Geradoc.Shared",
+        "projectPath": "D:\\CSharp\\Geradoc\\Geradoc.Shared\\Geradoc.Shared.csproj",
+        "packagesPath": "C:\\Users\\Matheus\\.nuget\\packages\\",
+        "outputPath": "D:\\CSharp\\Geradoc\\Geradoc.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Matheus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +176,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "FluentValidator": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

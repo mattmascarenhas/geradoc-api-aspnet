@@ -12,6 +12,8 @@ namespace Geradoc.Domain.Interfaces {
         bool ChecarEmail(string email);
         void Salvar(Cliente cliente);
         ClienteQuantidadeBlocos ObterQuantidadeBlocosCliente(string cpf);
-
+        IEnumerable<ClienteExibirLista> Get();
+        ClienteExibirLista Get(Guid id);
+        IEnumerable<BlocosClientes> GetBlocos();
     }
 }
