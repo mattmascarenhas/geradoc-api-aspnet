@@ -7,10 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Scripts\Procedures\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\Geradoc.Domain\Geradoc.Domain.csproj" />
     <ProjectReference Include="..\Geradoc.Shared\Geradoc.Shared.csproj" />
   </ItemGroup>

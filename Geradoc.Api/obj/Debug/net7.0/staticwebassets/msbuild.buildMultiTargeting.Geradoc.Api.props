@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Geradoc.Api.props" />
+</Project>

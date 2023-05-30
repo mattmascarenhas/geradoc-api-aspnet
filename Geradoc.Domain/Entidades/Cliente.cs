@@ -2,6 +2,7 @@
 using Geradoc.Domain.Objetos;
 using Geradoc.Shared.Entidades;
 using System.Net;
+using System.Reflection.Metadata;
 
 namespace Geradoc.Domain.Entidades {
     public class Cliente: Entidade {
@@ -29,7 +30,10 @@ namespace Geradoc.Domain.Entidades {
         public string EstadoCivil { get; private set; }
         public string Profissao { get; private set; }
         public string Telefone { get; private set; }
-        public IReadOnlyCollection<Endereco> Addresses => _enderecos.ToArray(); //apenas metodos de leitura
+        public Endereco Endereco { get; private set; }
+        //public IReadOnlyCollection<Endereco> Enderecos => _enderecos.ToArray(); //apenas metodos de leitura
+        //public string CpfCnpjNumero => CpfCnpj?.Numero;
+
 
 
     }

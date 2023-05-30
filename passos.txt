@@ -1,0 +1,14 @@
+1- Estruturar o projeto 
+
+2- Criar as entidades e os objetos delas com suas respectivas verificações
+
+3- Criar interfaces
+
+4- configurar a conexao, vamos utilizar o dapper e o data.sqlclient
+	folder.infra -> dotnet add package System.Data.SqlClient
+	foldar.infra -> dotnet add package Dapper
+
+5- Criar os comandos
+
+6- Criar os manipuladores (eles que vão executar as ações no controller)
+

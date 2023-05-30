@@ -19,5 +19,9 @@ namespace Geradoc.Domain.Objetos {
         }
 
         public int NumeroRg { get; private set; }
+
+        public override string ToString() {
+            return NumeroRg.ToString();
+        }
     }
 }

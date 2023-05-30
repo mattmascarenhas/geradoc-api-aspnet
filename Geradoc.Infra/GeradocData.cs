@@ -8,8 +8,15 @@ namespace Geradoc.Infra {
         public SqlConnection Conexao { get; set; }
 
         public GeradocData(){
-            Conexao = new SqlConnection(ConfiguracaoBancoDeDados.StringDeConexao);
-            Conexao.Open();
+            try {
+                Conexao = new SqlConnection(ConfiguracaoBancoDeDados.StringDeConexao);
+                Conexao.Open();
+                Console.WriteLine("Connected!");
+
+            } catch (Exception ex) {
+                Console.WriteLine($"Failed to connect to the database: {ex.Message}");
+            }
+            
         }
 
         public void Dispose() {

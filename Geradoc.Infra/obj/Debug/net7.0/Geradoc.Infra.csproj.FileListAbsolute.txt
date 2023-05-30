@@ -1,0 +1,17 @@
+D:\CSharp\Geradoc\Geradoc.Infra\bin\Debug\net7.0\Geradoc.Infra.deps.json
+D:\CSharp\Geradoc\Geradoc.Infra\bin\Debug\net7.0\Geradoc.Infra.dll
+D:\CSharp\Geradoc\Geradoc.Infra\bin\Debug\net7.0\Geradoc.Infra.pdb
+D:\CSharp\Geradoc\Geradoc.Infra\bin\Debug\net7.0\Geradoc.Domain.dll
+D:\CSharp\Geradoc\Geradoc.Infra\bin\Debug\net7.0\Geradoc.Shared.dll
+D:\CSharp\Geradoc\Geradoc.Infra\bin\Debug\net7.0\Geradoc.Domain.pdb
+D:\CSharp\Geradoc\Geradoc.Infra\bin\Debug\net7.0\Geradoc.Shared.pdb
+D:\CSharp\Geradoc\Geradoc.Infra\obj\Debug\net7.0\Geradoc.Infra.csproj.AssemblyReference.cache
+D:\CSharp\Geradoc\Geradoc.Infra\obj\Debug\net7.0\Geradoc.Infra.GeneratedMSBuildEditorConfig.editorconfig
+D:\CSharp\Geradoc\Geradoc.Infra\obj\Debug\net7.0\Geradoc.Infra.AssemblyInfoInputs.cache
+D:\CSharp\Geradoc\Geradoc.Infra\obj\Debug\net7.0\Geradoc.Infra.AssemblyInfo.cs
+D:\CSharp\Geradoc\Geradoc.Infra\obj\Debug\net7.0\Geradoc.Infra.csproj.CoreCompileInputs.cache
+D:\CSharp\Geradoc\Geradoc.Infra\obj\Debug\net7.0\Geradoc.Infra.csproj.CopyComplete
+D:\CSharp\Geradoc\Geradoc.Infra\obj\Debug\net7.0\Geradoc.Infra.dll
+D:\CSharp\Geradoc\Geradoc.Infra\obj\Debug\net7.0\refint\Geradoc.Infra.dll
+D:\CSharp\Geradoc\Geradoc.Infra\obj\Debug\net7.0\Geradoc.Infra.pdb
+D:\CSharp\Geradoc\Geradoc.Infra\obj\Debug\net7.0\ref\Geradoc.Infra.dll

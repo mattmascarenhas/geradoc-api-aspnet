@@ -13,6 +13,7 @@ namespace Geradoc.Domain.Interfaces {
         void Salvar(Cliente cliente);
         ClienteQuantidadeBlocos ObterQuantidadeBlocosCliente(string cpf);
         IEnumerable<ClienteExibirLista> Get();
+        IEnumerable<ClientesSemEndereco> GetAll();
         ClienteExibirLista Get(Guid id);
         IEnumerable<BlocosClientes> GetBlocos();
     }
